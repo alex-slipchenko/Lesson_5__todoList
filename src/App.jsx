@@ -60,7 +60,6 @@ export default class App extends Component {
         }
       }));
 
-      console.log(response); // Выводим ответ в консоль
     } catch (error) {
       console.log(error);
     }
